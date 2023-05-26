@@ -4,7 +4,7 @@ export const SearchBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 550px;
+  width: 600px;
   height: 50px;
   border-radius: 999px;
   overflow: hidden;
@@ -16,7 +16,7 @@ export const SearchBox = styled.div`
   > div {
     display: flex;
     align-items: center;
-    width: 545px;
+    width: 595px;
     height: 45px;
     background-color: #ffffff;
     border-radius: 999px;
@@ -24,16 +24,18 @@ export const SearchBox = styled.div`
 `;
 
 export const SearchIcon = styled.img`
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
 `;
 
 export const Search = styled.input`
-  width: 450px;
+  width: 500px;
   height: 100%;
   border: 0;
   outline: none;
   margin-right: 30px;
-  font-size: 18px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: "SEBANG_Gothic_Bold";
 `;
