@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Input from "./components/Input";
 import List from "./components/List";
+import * as S from "./styled";
 
 function App() {
   const [webtoon, setWebtoon] = useState([]);
@@ -11,7 +12,6 @@ function App() {
     );
     const data = await res.json();
     setWebtoon(data.webtoons);
-    console.log(data.webtoons);
   }
 
   const onSearch = (e) => {
@@ -21,8 +21,12 @@ function App() {
   };
   return (
     <>
-      <Input onKeyUp={onSearch} placeholder="제목, 작가 이름을 검색하세요" />
-      <List webtoon={webtoon} />
+      <S.SearchContainer>
+        <Input onKeyUp={onSearch} placeholder="제목이나 작가를 검색하세요." />
+      </S.SearchContainer>
+      <S.ListContainer>
+        <List webtoon={webtoon} />
+      </S.ListContainer>
     </>
   );
 }
