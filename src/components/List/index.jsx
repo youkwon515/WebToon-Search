@@ -1,8 +1,8 @@
 import ListItem from "../ListItem";
-
+import * as S from "./styled";
 function List({ webtoon }) {
   return (
-    <ul>
+    <S.List>
       {webtoon.map(({ _id, title, author, url, img, service }) => {
         return (
           <ListItem
@@ -15,7 +15,7 @@ function List({ webtoon }) {
           />
         );
       })}
-    </ul>
+    </S.List>
   );
 }
 
