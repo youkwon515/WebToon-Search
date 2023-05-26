@@ -1,2 +1,8 @@
 * {padding: 0; margin: 0; box-sizing: border-box; list-style: none; text-decoration: none;}
-body {display: flex; justify-content: center;width: 100vw; height: 100vh; color: rgb(rgb(226, 254, 12), rgb(4, 254, 0), blue);}
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {width: 100vw; height: 100vh; font-family: 'SEBANG_Gothic_Bold';}
