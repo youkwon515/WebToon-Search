@@ -4,9 +4,17 @@ function List({ webtoon, InputValue, detailValue }) {
   return (
     <S.List>
       {webtoon.length !== 0 ? (
-        webtoon.map(({ _id, title, author, url, img, service }) => {
+        webtoon.map(({ _id, title, author, url, img, service, updateDays }) => {
           const handleDetailValue = () => {
-            const detailArr = { id: _id, title, author, url, img, service };
+            const detailArr = {
+              id: _id,
+              title,
+              author,
+              url,
+              img,
+              service,
+              updateDays,
+            };
             detailValue(detailArr);
           };
           return (
