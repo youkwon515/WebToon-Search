@@ -5,8 +5,11 @@ function ListItem({ title, author, url, img, service }) {
     <S.Item>
       <S.Img src={img} />
       <S.ContentsBox>
-        <S.Title>{title}</S.Title>
+        <S.TitleBox>
+          <S.Title>{title}</S.Title>
+        </S.TitleBox>
         <S.author>{author}</S.author>
+        <S.serviceBox>{service}</S.serviceBox>
       </S.ContentsBox>
     </S.Item>
   );
