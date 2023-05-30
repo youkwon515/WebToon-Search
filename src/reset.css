@@ -5,4 +5,4 @@
     font-weight: normal;
     font-style: normal;
 }
-body {width: 100vw; height: 100vh; font-family: 'SEBANG_Gothic_Bold';}
+body {width: 100vw; height: 100vh; font-family: 'SEBANG_Gothic_Bold'; overflow-x: hidden;}
