@@ -115,6 +115,7 @@ export const UrlLink = styled.button`
   margin-left: 5px;
   border: 0;
   font-family: "SEBANG_Gothic_Bold";
+  cursor: pointer;
 `;
 
 export const Box = styled.div`
