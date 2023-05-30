@@ -11,6 +11,6 @@
 
 <br/>
 
-> 서로 다른 플랫폼에 있는 웹툰을 한곳에서 검색하세요!
+> 서로 다른 플랫폼에 있는 웹툰을 한 곳에서 검색하세요!
 
 [https://web-toon-search.vercel.app](https://web-toon-search.vercel.app/)
