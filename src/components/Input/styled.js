@@ -8,10 +8,7 @@ export const SearchBox = styled.div`
   height: 50px;
   border-radius: 999px;
   overflow: hidden;
-  background-image: linear-gradient(
-    rgba(226, 254, 12, 0.5),
-    rgba(4, 254, 0, 0.6)
-  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(4, 0, 0, 0.6));
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   > div {
     display: flex;
