@@ -1,5 +1,5 @@
 import * as S from "./styled";
-import icon from "../../img/searchIcon.svg";
+import icon from "../../assets/searchIcon.svg";
 function Input(props) {
   return (
     <S.SearchBox>
