@@ -5,7 +5,6 @@ import * as S from "./styled";
 
 function App() {
   const [webtoon, setWebtoon] = useState([]);
-
   async function webToonSearch(value) {
     const res = await fetch(
       `https://korea-webtoon-api.herokuapp.com/search?keyword=${value}`
@@ -15,8 +14,9 @@ function App() {
   }
 
   const onSearch = (e) => {
+    const inputValue = e.target.value;
     if (e.key === "Enter") {
-      webToonSearch(e.target.value);
+      webToonSearch(inputValue);
     }
   };
   return (
