@@ -7,10 +7,8 @@
   </div>
   <br/><hr/>
 </div>
-<a href="https://github.com/youkwon515/WebToon-Search"><img src="https://img.shields.io/github/stars/youkwon515/WebToon-Search.svg?style=popout"/></a>
 
 <br/>
 
-> 서로 다른 플랫폼에 있는 웹툰을 한 곳에서 검색하세요!
-
-[https://web-toon-search.vercel.app](https://web-toon-search.vercel.app/)
+> 서로 다른 플랫폼에 있는 작품들을 한 곳에서 검색하세요!
+> [[view](https://web-toon-search.vercel.app/)]
